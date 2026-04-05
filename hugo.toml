@@ -1,0 +1,63 @@
+baseURL = "https://tennis-coach-blog.pages.dev/"
+languageCode = "ja"
+title = "テニスコーチの知恵袋"
+theme = "PaperMod"
+paginate = 10
+buildFuture = true
+
+[params]
+  env = "production"
+  description = "テニス指導者のためのメディア・ツール・コミュニティ。練習メニュー、声かけ術、レッスン設計を発信。"
+  author = "テニスコーチの知恵袋"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "🎾 テニスコーチの知恵袋"
+    Content = "テニスを教えるすべての人のための専門メディア。練習メニュー・声かけ術・レッスン設計・用品レビューを発信しています。"
+
+  [[params.socialIcons]]
+    name = "note"
+    url = "https://note.com/xxxxx"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/xxxxx"
+
+[params.assets]
+  favicon = "/favicon.ico"
+
+[params.schema]
+  publisherType = "Person"
+
+[[menu.main]]
+  name = "練習メニュー"
+  url = "/categories/練習メニュー/"
+  weight = 1
+[[menu.main]]
+  name = "指導ノウハウ"
+  url = "/categories/指導ノウハウ/"
+  weight = 2
+[[menu.main]]
+  name = "用品レビュー"
+  url = "/categories/用品レビュー/"
+  weight = 3
+[[menu.main]]
+  name = "ツール"
+  url = "/tools/"
+  weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
