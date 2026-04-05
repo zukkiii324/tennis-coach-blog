@@ -1,5 +1,5 @@
 ---
-title: "tennis-beginner-stroke-drill-60min"
+title: "テニス初心者がラリーを続けるためのストローク安定ドリル3選【60分メニュー】"
 date: 2026-04-06
 slug: "tennis-beginner-stroke-drill-60min"
 description: "テニス初心者がラリーを続けるための60分ストロークドリル3選。的当てラリー・3球ラリー・カウントラリーの理論と実践方法を解説。キッズアレンジ・複数人対応あり。"
