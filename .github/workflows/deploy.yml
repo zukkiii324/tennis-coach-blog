@@ -38,7 +38,7 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-        run: hugo --minify --baseURL "https://zukkiii324.github.io/tennis-coach-blog/"
+        run: hugo --minify --buildFuture --baseURL "https://zukkiii324.github.io/tennis-coach-blog/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
