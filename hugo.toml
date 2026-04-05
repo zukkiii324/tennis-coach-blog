@@ -2,7 +2,8 @@ baseURL = "https://tennis-coach-blog.pages.dev/"
 languageCode = "ja"
 title = "テニスコーチの知恵袋"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 10
 buildFuture = true
 
 [params]
